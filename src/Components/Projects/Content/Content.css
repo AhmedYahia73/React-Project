@@ -1,0 +1,17 @@
+.Content{
+    border: 1px solid #0CAEAB;
+    cursor: pointer;
+}
+.Content .ProjectImg{
+    overflow: hidden;
+    height: 200px;
+}
+.Content span{
+    font-size: 30px;
+}
+.Content .ProjectImg img{
+    transition: 0.5s;
+}
+.Content .ProjectImg img:hover{
+    transform: scale(1.15);
+}

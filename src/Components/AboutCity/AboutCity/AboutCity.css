@@ -1,0 +1,99 @@
+.AboutCity .AboutBlocks .AboutBlock .img{
+    height: 120px;
+}
+.AboutCity .grayBlock{
+    background-color: #F7F7F7;
+}
+.AboutCity{
+    max-width: 99vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.AboutCity .AboutBlocks .title{
+    font-size: 28px;
+    color: #1E3054 !important;
+}
+.AboutCity .AboutBlocks .num{
+    font-size: 50px;
+}
+.AboutCity .AboutBlocks .Details{
+    font-size: 19px;
+}
+.AboutCity .color0{
+    color: #C25E42;
+}
+.AboutCity .color1{
+    color: #B67CDC;
+}
+.AboutCity .color2{
+    color: #95CF97;
+}
+.AboutCity .color3{
+    color: #5784D1;
+}
+.AboutCity .color4{
+    color: #D79A57;
+}
+.AboutCity .color5{
+    color: #56C6B7;
+}
+.AboutCity .color6{
+    color: #C64F79;
+}
+.AboutCity .color7{
+    color: #BBA553;
+}
+.AboutCity .color8{
+    color: #41834F;
+}
+.AboutCity .color9{
+    color: #766CD0;
+}
+.AboutCity .color10{
+    color: #7CCF68;
+}
+.AboutCity .color11{
+    color: #EDE59F;
+}
+.AboutCity .color12{
+    color: #659AB2;
+}
+.AboutCity .color13{
+    color: #B54532;
+}
+.AboutCity .color14{
+    color: #CBAA5E;
+}
+.AboutCity .color15{
+    color: #414C89;
+}
+.AboutCity .color16{
+    color: #B38CFF;
+}
+.AboutCity .color17{
+    color: #95BD58;
+}
+.AboutCity .color18{
+    color: #F8B542;
+}
+.AboutCity .color19{
+    color: #F2884A;
+}
+.AboutCity .color20{
+    color: #A9AA53;
+}
+.AboutCity .color21{
+    color: #49BB8B;
+}
+.AboutCity .color22{
+    color: #44B0E4;
+}
+.AboutCity .color23{
+    color: #EE4955;
+}
+.AboutCity .color24{
+    color: #D671C6;
+}
+.AboutCity .color25{
+    color: #3EBDC9;
+}

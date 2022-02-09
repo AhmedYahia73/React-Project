@@ -1,0 +1,26 @@
+.Booking{
+    background-color: #8CC63F;
+    padding: 60px 0;
+}
+.Booking .title{
+    font-size: 45px;
+    color: white;
+}
+button , i, input{
+    transition: 0.5s;
+}
+.Booking button{
+    color: #8CC63F;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 20px 60px;
+}
+.Booking .divCenter{
+    height: 100%;
+}
+.Booking button:hover{
+    background-color: #D86B5F;
+    color: white;
+}

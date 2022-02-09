@@ -1,0 +1,32 @@
+.ADSHeader .Left{
+    background-color: #0CAEAB;
+    color: white;
+    border-bottom: 4px solid #0FDEDA;
+    font-size: 25px;
+}
+.ADSHeader{
+    width: 100vw;
+}
+.ADSHeader .Right{
+    background-color: #444444;
+    border-bottom: 4px solid #777777;
+}
+.ADSHeader .Right .top{
+    font-size: 25px;
+    color: white;
+}
+.ADSHeader .Right .bottom{
+    font-size: 20px;
+    color: #A5DBE1;
+}
+.MainAds{
+    background-color: #EFEFEF;
+    padding: 30px 30px 80px 30px;
+}
+.ADSHeader .Left a{
+    color: white;
+    text-decoration: none;
+}
+.ADSHeader .Left a:hover{
+    color: #0056B3;
+}

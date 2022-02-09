@@ -1,0 +1,23 @@
+.HomeBtn .FinalBtn{
+    background-color: #eebb78;
+    color: #1E3054;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    transition: 0.5s;
+    width: 300px;
+    font-size: 25px;
+}
+.HomeBtn .FinalBtn:hover{
+    background-color: #0CAEAB;
+    color: white;
+}
+.HomeBtn{
+    border-top: 1px solid #ddd;
+}
+@media screen and (max-width: 1000px){
+.HomeBtn .FinalBtn{
+    width: 90%;
+    font-size: 24px;
+}
+}

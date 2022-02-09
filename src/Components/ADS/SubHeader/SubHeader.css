@@ -1,0 +1,38 @@
+@media screen and (min-width: 1000px) {
+    
+.SubHeader{
+    font-size: 18px;
+}
+.SubHeader .view{
+    display: flex;
+}
+.SubHeader .view b{
+    border-right: 1px solid #555;
+}
+.SubHeader .view0{
+    display: none !important;
+}
+}
+@media screen and (max-width: 1000px) {
+    
+.SubHeader{
+    font-size: 16px;
+} 
+.SubHeader .view{
+    display: none !important;
+}
+}
+@media screen and (max-width: 700px) {
+        
+    .SubHeader{
+        display: none !important;
+    }
+}
+
+.SubHeader{
+    background-color: white;
+    margin: 0 -15px 30px  -15px !important;
+}
+.SubHeader .colorRed{
+    color: #D71A21;
+}

@@ -1,0 +1,26 @@
+.VideoCity{
+    background-image: linear-gradient( #E7EFF4, white);
+    border-top: 1px solid #bbb;
+}
+.VideoCity .TextVideo{
+    font-size: 33px;
+    color: #1E3054;
+}
+.VideoCity .MyVideo{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px !important;
+}
+.VideoCity .MyVideo .IframeVideo{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 1000px) {
+    
+    .VideoCity .TextVideo{
+        font-size: 27px;
+    }
+    .VideoCity .MyVideo{
+       height: 350px;
+    }
+}

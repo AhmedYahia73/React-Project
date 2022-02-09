@@ -1,0 +1,50 @@
+.ADS{
+    background-color: white;
+    border: 1px solid #0CAEAB;
+}
+.ADS .img{
+    height: 175px;
+    overflow: hidden;
+}
+.MainADS0{
+    position: relative;
+}
+.ADS .Price{
+    color: #0CAEAB;
+    font-size: 30px;
+}
+.ADS .Name{
+    font-size: 22px;
+}
+.ADS .Address{
+    font-size: 16px;
+}
+.ADS .d-flex{
+    flex-wrap: wrap;
+}
+ .MainADS0{
+     flex-direction: row-reverse;
+     position: relative;
+
+}
+.ADS .cycleDiv{
+    border-radius: 50%;
+    background-color: white;
+    height: 85px;
+    width: 85px;
+    position: absolute;
+    top: 115px;
+    left: 30px;
+    box-shadow: 0px 0px 10px 0 black;
+    padding: 10px;
+    cursor: pointer;
+}
+.ADS .cycleDiv img{
+    border-radius: 50%;
+}
+.ADS .img img{
+    transition: 0.3s;
+}
+.ADS .img img:hover{
+    transform: scale(1.15);
+}

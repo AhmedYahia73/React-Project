@@ -1,0 +1,69 @@
+.ADSSearch{
+    border: 1px solid #0CAEAB;
+    background-color: white;
+}
+
+.ADSSearch .TitleSearch{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.ADSSearch .TypeAds{
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    font-size: 22px;
+}
+.ADSSearch .TypesAds{
+    border: 1px solid #777;
+    font-size: 20px;
+    text-align: right;
+}
+.ADSSearch input, .ADSSearch select{
+    width: 90%;
+    font-size: 20px;
+    text-align: right;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.fa-search{
+    font-size: 18px !important;
+}
+.ADSSearch .SearchImg{
+    width: 40px;
+    height: 40px;
+}
+.SearchPart.TypesAds{
+    background-color: #ECECEC;
+}
+.MainBox{
+    width: 40px;
+    height: 45px;
+    margin-right: -4px;
+    background-color: #cfcfcf;
+}
+.MainBox .SubBox{
+    background-color: #ECECEC;
+    width: 50%;
+    height: 40%;
+    border-radius: 2px;
+}
+.btnSearch{
+    border: 1px solid #777 !important;
+    color: #555 !important;
+    width: 100% !important;
+    font-size: 22px;
+}
+.ADSSearch .myDiv{
+    font-size: 18px;
+    background-color: #E9ECEF;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    color: #444;
+    width: calc(100% - 10%);
+}
+.ADSSearch select{
+    color: #888;
+}

@@ -1,0 +1,47 @@
+.HomeAbout .img{
+    height: 150px;
+}
+.HomeAbout .color1{
+    color: #C25E42;
+}
+.HomeAbout .color2{
+    color: #7FC681;
+}
+.HomeAbout .color3{
+    color: #766CD0;
+}
+.HomeAbout .color4{
+    color: #D79A57;
+}
+.HomeAbout .info{
+    font-size: 60px;
+}
+.HomeAbout .details{
+    font-size: 18px;
+}
+.HomeAbout .title{
+    font-size: 30px;
+    color: #1E3054;
+    border-bottom: 1px solid #C07717;
+}
+.HomeAbout .AboutBlock .name{
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+    .HomeAbout .AboutBlock0{
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+    }
+    .HomeAbout .title{
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .HomeAbout0{
+        display: flex;
+        justify-content: space-between;
+    }
+}

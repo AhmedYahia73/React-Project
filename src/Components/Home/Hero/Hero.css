@@ -1,0 +1,60 @@
+.HomeHero{
+    width: 100vw;
+    padding: 9vh ;
+    padding-bottom: 15vh;
+    background-color: #efefef;
+}
+.HomeHero {
+    flex-wrap: wrap;
+}
+.HomeHero .HeroImg img{
+    border-radius: 20px;
+}
+.HomeHero .Hero{
+    width: 57vw;
+}
+.HomeHero .title{
+    font-size: 40px;
+    color: #1E3054;
+    border-bottom: 1px solid #EAA953;
+    margin-bottom: 30px;
+}
+.HomeHero .content{
+    font-size: 24px;
+}
+.HomeHero a{
+    color: #DC3545;
+
+}
+
+@media screen and (min-width: 1000px) {
+    .HomeHero{
+        position: relative;
+    }
+    .HomeHero .HeroImg{
+        position: absolute;
+        right: 70px;
+    }
+    .HomeHero .HeroImg{
+        height: 80vh;
+        width: 25vw;
+    }
+}
+@media screen and (max-width: 1000px) {
+
+    .HomeHero .HeroImg{
+        height: 350px;
+        min-width: 250px;
+        margin-bottom: 40px;
+    }
+    .HomeHero .Hero{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .HomeHero .content{
+        font-size: 18px;
+    }
+    .HomeHero .title{
+        font-size: 25px;
+    }
+}

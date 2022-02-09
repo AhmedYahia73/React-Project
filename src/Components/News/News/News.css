@@ -1,0 +1,75 @@
+.News a{
+    font-size: 35px;
+    color: #D81A21;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.News .title:hover{
+    color: black;
+}
+.News .content{
+    font-size: 23px;
+}
+.News button{
+    background-color: transparent;
+    border: 1px solid #D81A21;
+    border-radius: 5px;
+    color: #D81A21;
+    transition: 0.5s;
+    font-size: 18px;
+}
+.News button:hover{
+    background-color: #D81A21;
+    color: white;
+}
+.News .NewsBlock .img{
+    width: 250px !important;
+    height: 180px !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+}
+.News .NewsBlock .img img{
+    border-radius: 5px;
+}
+.News .NewsBlock{
+    flex-direction: row-reverse;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.News{
+    background-color: #F5F5F5;
+    padding: 0 15vw;
+}
+.News .NewsContent{
+    width: calc(100% - 300px);
+}
+@media screen and (max-width: 1000px) {
+    .News .NewsBlock{
+        display: block !important;
+        position: relative;
+    }
+    .News .img{
+        margin: 0 calc(50% - 120px);
+    }
+    .News .NewsContent{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .News .NewsBlock{
+        display: block !important;
+        position: relative;
+    }
+    .News .img{
+        margin: 0 calc(50% - 100px);
+    }
+    .News .NewsContent{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .News{
+        padding: 0;
+    }
+}

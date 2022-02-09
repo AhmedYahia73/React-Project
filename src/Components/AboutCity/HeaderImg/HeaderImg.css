@@ -1,0 +1,19 @@
+.HeaderImg .img{
+    height: 100vh;
+}
+.HeaderImg img{
+    height: 100%;
+}
+.HeaderImg .img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeaderImg .img .Title{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.726);
+    padding: 7vh 20vw;
+    font-size: 40px;
+    color: #1E3054;
+}

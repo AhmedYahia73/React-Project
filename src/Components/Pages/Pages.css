@@ -1,0 +1,19 @@
+.PageNum{
+    height: 40px;
+    width: 32px;
+    border: 1px solid #ccc;
+    color: #D81A21;
+    background-color: white;
+}
+.active{
+    color: white !important;
+    background-color: #D81A21 !important;
+}
+.active:hover{
+    color: white !important;
+    background-color: #D81A21 !important;
+}
+.PageNum:hover{
+    color: white;
+    background-color: black;
+}

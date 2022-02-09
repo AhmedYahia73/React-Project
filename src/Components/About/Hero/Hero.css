@@ -1,0 +1,22 @@
+.About{
+    background-color: #E0B0A4;
+    min-height: 120vh;
+    padding: 10vh 20px;
+}
+.About .AboutContent{
+    background-color: white;
+    min-height: 100vh;
+    border-radius: 120px 0;
+    padding: 70px 70px;
+}
+.About .AboutContent .title{
+    border-bottom: 1px solid #C07717;
+    color: #D71920;
+    font-size: 35px;
+}
+.About .AboutContent .Contents{
+    font-size: 22px;
+}
+.About .AboutContent a{
+    color: #D71920;
+}

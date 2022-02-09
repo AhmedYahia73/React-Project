@@ -1,0 +1,90 @@
+.HomeServices{
+    background-color: #1E3054;
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+}
+.HomeServices .title{
+    color:  white;
+    font-size: 40px;
+    border-bottom: 1px solid #EAA953;
+}
+.serviceBlock{
+    height: 100px;
+    background-color: white;
+}
+.serviceBlock img{
+    border-radius: 25px 25px 0px 0px;
+    transition: .5s;
+}
+.serviceBlock img:hover{
+    transform: scale(1.15);
+}
+.serviceBlock .MainImg .img{
+    border-radius: 25px 25px 0px 0px;
+    overflow: hidden;
+}
+.serviceBlock .MainImg{
+    background-color: white;
+    padding-top: 5px;
+    border-radius: 25px 25px 0px 0px;
+}
+.HomeServices button{
+    border-radius: 5px;
+    background-color: #eebb78;
+    border: none;
+    font-size: 25px;
+    color: #1E3054;
+    transition: 0.5s;
+}
+.HomeServices button:hover{
+    background-color: #0CAEAB;
+    color: white;
+}
+.serviceBlock{
+    background-color: transparent;
+}
+.serviceName{
+    color: #EAA953;
+    border-radius: 15px;
+    border: 1px solid #EAA953;
+    margin-top: -15px;
+    padding-top: 30px !important;
+    font-size: 24px;
+}
+.HomeServices .serviceBtn{
+    position: absolute;
+    left: calc(100vw/2 - 125px);
+    bottom: 30px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .HomeServices .ServiceBlocks{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .HomeServices .ServiceBlocks{
+        width: 90% !important;
+        height: 200px;
+    }
+    .HomeServices{
+        height: 2330px;
+    }
+    .HomeServices .ServiceBlocks{
+        position: absolute;
+        left:  5%;
+    }
+    .serviceBlock .MainImg .img{
+        height: 300px !important;
+    }
+    .HomeServices .serviceBlock{
+        margin-bottom: 320px;
+    }
+    .HomeServices button{
+        font-size: 25px;
+        padding: 10px 30px !important;
+    }
+}
